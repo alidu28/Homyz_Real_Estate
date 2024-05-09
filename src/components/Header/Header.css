@@ -2,7 +2,7 @@
     color: white;
 }
 
-.h-container{
+.h-wrapper .h-container{
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -13,6 +13,6 @@
     gap: 2rem;
 }
 
-.h-menu a:hover{
+.h-menu>*:hover{
     cursor: pointer;
 }

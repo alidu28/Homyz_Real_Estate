@@ -4,7 +4,7 @@
     padding-bottom: 2rem;
 }
 
-.hero-container{
+.hero-wrapper .hero-container{
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -35,7 +35,7 @@
     z-index: -1;
 }
 
-.search-bar{
+.hero-left .search-bar{
     background-color: white;
     border-radius: 5px;
     border: 3px solid rgba(120, 120, 120, 0.374);
@@ -49,16 +49,16 @@
     outline: none;
 }
 
-.stats{
+.hero-left .stats{
     width: 100%;
     justify-content: space-between;
 }
 
-.stat :nth-child(1){
+.stat>:nth-child(1){
     font-size: 2rem;
 }
 
-.stat :nth-child(1) :last-child{
+.stat>:nth-child(1)>:last-child{
     color: orange;
 }
 
