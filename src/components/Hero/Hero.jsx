@@ -68,7 +68,7 @@ const Hero = () => {
             animate={{x: 0, opacity: 1}}
             transition={{duration: 2, type: "ease-in"}}
             className="image-container">
-                <img src="/public/hero-image.png" alt="" />
+                <img src="/hero-image.png" alt="" />
             </motion.div>
         </div>
       </div>
